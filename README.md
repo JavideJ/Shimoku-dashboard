@@ -1,5 +1,5 @@
 # Shimoku-dashboard
-This project uses the Shimoku python api to create an online dashboard. A jupyter notebook is waiting for you to check the different steps of this project, includin an EDA, data processing, charts creation and a quick ML model.
+This project uses the Shimoku python api to create an online dashboard. A jupyter notebook is waiting for you to check the different steps of this project, includin an EDA, data processing, charts creation and a quick ML model. There is also a utils.py with some functions to make the notebook easier to read.
 ## Data
 In particular, we will work with two datasets of TV shows and films with the following information:<br>
 <br>
