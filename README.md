@@ -3,9 +3,9 @@ This project uses the Shimoku python api to create an online dashboard. A jupyte
 ## Data
 In particular, we will work with two datasets of TV shows and films with the following information:<br>
 <br>
-all_titles.csv: includes the next columns:
+**all_titles.csv** includes the next columns:
 
-- id: ID for the title<br>
+<pre>- id: ID for the title<br>
 - title: Name of the movie or show<br>
 - type: indicates if it is a movie or a show<br>
 - description: brief synopsis of the title<br>
@@ -20,16 +20,16 @@ all_titles.csv: includes the next columns:
 - imdb_votes: number of votes used to compute the imdb_score field<br>
 - tmdb_popularity: popularity score of the title on the The Movie DataBase (TMDB) platform<br>
 - tmdb_score: average rating of the title in TMDB<br>
-- streaming: name of the streaming service listing the film<br>
+- streaming: name of the streaming service listing the film<br></pre>
 
-all_credits.csv: includes the next columns:<br>
+**all_credits.csv** includes the next columns:<br>
 
-- person_id: identifier of the person doing the role<br>
+<pre>- person_id: identifier of the person doing the role<br>
 - id: ID for the title (same ID used on all_titles.csv)<br>
 - name: name of the person doing the role<br>
 - character: name of the character in the title, if any<br>
-- role: indicates if the person has the role actor or a director<br>
-<br>
+- role: indicates if the person has the role actor or a director</pre><br>
+
 The aim is to answer these three questions:<br>
 1. How have genre trends evolved over the years?<br>
 2. How does each platform manage movies?<br>
